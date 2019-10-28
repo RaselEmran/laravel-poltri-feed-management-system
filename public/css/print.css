@@ -1,0 +1,56 @@
+@media print {
+
+@page {
+  margin: 5pt;
+}
+@page :first {
+  margin-top: 50pt;
+}
+
+@page :left {
+  margin-right: 12pt;
+}
+
+@page :right {
+  margin-left: 12pt;
+}
+
+/*li{
+  display: inline-block;
+}*/
+
+body {
+font: 13pt Georgia, "Times New Roman", Times, serif;
+line-height: 1.3;
+background: #eee !important;
+color: #000;
+border: 2px dotted #ddd; 
+}
+#first{
+  max-width: 50%;
+  display: inline-block;
+  border-left : 1px dotted #000;
+}
+#sceond{
+  max-width: 50%;
+  float: left;
+
+}
+/*.fisttr
+{
+  width: 50px;
+
+
+}*/
+#ftbody
+{
+
+ max-width: 50px;
+ overflow: hidden !important;
+}
+.table
+{
+  overflow: hidden;
+}
+
+}
